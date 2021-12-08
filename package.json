@@ -1,0 +1,23 @@
+{
+    "name": "cyberpunk-2077-concept",
+    "version": "1.0.0",
+    "description": "A concept ui for Cyberpunk 2077",
+    "author": "jeanniesarah",
+    "main": "index.js",
+    "license": "MIT",
+    "homepage": "https://github.com/jeanniesarah/cyberpunk-2077-concept",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jeanniesarah/cyberpunk-2077-concept.git"
+    },
+    "bugs": {
+        "url": "https://github.com/jeanniesarah/cyberpunk-2077-concept/issues"
+    },
+    "scripts": {
+        "dev": "npx tailwindcss --postcss -i tailwind.css -o style.css --watch",
+        "build": "NODE_ENV=production npx tailwindcss --postcss -i tailwind.css -o style.css --minify"
+    },
+    "devDependencies": {
+        "tailwindcss": "^3.0.0-alpha.1"
+    }
+}
